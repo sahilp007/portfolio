@@ -98,13 +98,13 @@ body {
   top: 55%;
   opacity: 0;
 }
-.tl-content div {
-  font-family: 'Pathway Gothic One',Helvetica Neue,Helvetica,Arial,sans-serif;
-  text-transform: uppercase;
-  color: #1779cf;
-  font-size: 1.44rem;
-  font-weight: normal;
-}
+/*.tl-content div {*/
+/*  font-family: 'Pathway Gothic One',Helvetica Neue,Helvetica,Arial,sans-serif;*/
+/*  text-transform: uppercase;*/
+/*  color: #1779cf;*/
+/*  font-size: 1.44rem;*/
+/*  font-weight: normal;*/
+/*}*/
 .tl-head {
   position: absolute;
   top: 20%;
@@ -154,13 +154,42 @@ body {
   margin: 1rem 1rem 1rem 0rem;
 }
 
+/*.link-secondary {*/
+/*  color: var(--primary-color);*/
+/*  border-radius: 0.5rem;*/
+/*  border: 1px solid var(--primary-color);*/
+/*  display: inline-block;*/
+/*  max-width: 140px;*/
+/*  margin: 1rem 1rem 1rem 0rem;*/
+/*}*/
 .link-secondary {
-  color: var(--primary-color);
-  border-radius: 0.5rem;
-  border: 1px solid var(--primary-color);
+  /*color: var(--primary-color);*/
+  border-radius: 100px;
+  /*border: 1px solid var(--primary-color);*/
   display: inline-block;
   max-width: 140px;
-  margin: 1rem 1rem 1rem 0rem;
+  margin: 1rem 1rem 1rem 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: all .2s;
+  position: relative;
+}
+
+.link-secondary:hover {
+  transform: translateY(-13px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.link-secondary:active {
+  transform: translateY(11px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.link-secondary {
+  background-color: #fff;
+  color: #777;
+  font-size: 14px;
 }
 
 .snippets{
@@ -210,7 +239,13 @@ display: flex;
   background-color: var(--primary-color);
   padding: 1.3rem;
   text-align: center;
-  border-top-right-radius: 1rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  bottom: 0;
+  left: 0;
+  right:0;
+  position: absolute;
+
 }
 
 .footer h3 {
