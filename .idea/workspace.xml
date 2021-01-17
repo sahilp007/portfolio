@@ -22,9 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35326e7a-b2f8-4dbf-80d0-3e0157cad854" name="Default Changelist" comment="about me addition">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
+    <list default="true" id="35326e7a-b2f8-4dbf-80d0-3e0157cad854" name="Default Changelist" comment="nav bar change">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS Callback Functions.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS Callback Functions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
@@ -41,6 +40,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -63,9 +64,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -73,6 +76,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sahil\WebstormProjects\newone\portfolio\css" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.test">
     <configuration name="test" type="JavascriptDebugType" engineId="1ff36c74-6eb7-4ece-98a1-0634c83cb5c4" uri="http://localhost:63342/portfolio/index.html" useBuiltInWebServerPort="true">
@@ -122,7 +130,10 @@
       <workItem from="1610651908850" duration="1794000" />
       <workItem from="1610668544962" duration="2130000" />
       <workItem from="1610695678953" duration="8942000" />
-      <workItem from="1610755450272" duration="4728000" />
+      <workItem from="1610755450272" duration="5123000" />
+      <workItem from="1610809821577" duration="6104000" />
+      <workItem from="1610834292427" duration="8579000" />
+      <workItem from="1610869266491" duration="6228000" />
     </task>
     <task id="LOCAL-00001" summary="css edits">
       <created>1608635781713</created>
@@ -159,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609375993944</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="nav bar change">
+      <created>1610764642661</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610764642661</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +200,8 @@
     <MESSAGE value="css edits" />
     <MESSAGE value="about me addition" />
     <MESSAGE value="changed react app" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed react app" />
+    <MESSAGE value="nav bar change" />
+    <option name="LAST_COMMIT_MESSAGE" value="nav bar change" />
   </component>
   <component name="WindowStateProjectService">
     <state x="617" y="281" key="#Notifications" timestamp="1608578223679">
@@ -237,10 +256,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="971" height="301" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1610672375313" />
-    <state x="0" y="148" key="Vcs.Push.Dialog.v2" timestamp="1609376008074">
+    <state x="0" y="148" key="Vcs.Push.Dialog.v2" timestamp="1610764811083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1609376008074" />
+    <state x="0" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1610764811083" />
     <state x="0" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608981790575" />
     <state x="971" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610652251432">
       <screen x="0" y="0" width="1536" height="824" />
