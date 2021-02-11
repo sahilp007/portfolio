@@ -10,11 +10,10 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	
 	<meta charset="UTF-8">
 	<title>About Me</title>
 </head>
-<body style="background-color: #031625; color: white">
+<body style="background-color: #031625;" class="blog-body">
 	
 	<nav class="sticky-top">
 		<header class="header">
@@ -29,45 +28,53 @@
 		</header>
 	</nav>
 	
-	
-	<div class="para">
-		<h2>Hey I am Sahil Prasad</h2>
-		
-		<p>
-			I started out with Java and then shifted to Python. <br>
-			I am really enjoying <span class="snippets">Web Development</span> a lot.
-		</p>
-	</div>
-	<div style="display:flex; flex-wrap: wrap">
-		<div class="container-gc">
-			<div class="card-gc">
-				<div class="content-gc">
-					<h2>01</h2>
-					<h3>Text Generator</h3>
-					<p>
-						Generate Lorem Ipsum text with or without tags. (React)
+	<div class="blog-container">
+		<div class="blog-card">
+			<div class="blog-imgBx">
+				<img src="./images/avatar.jpg" alt="why is this not loading">
+			</div>.
+			<div class="blog-content">
+				<div>
+					<h3>JS Callback Function</h3>
+					
+					<p>Callbacks are often used inside event handlers to run a block of code. In this guide, we’re going to talk about what callback functions are and how they work. We’ll walk through an example of a callback function to help you learn how to use them in your code.
 					</p>
-					<a class="link link-secondary"
-					   href="https://react-lorem-text-generator.netlify.app/">Generate</a><br>
-					<a class="link link-secondary" href="https://github.com/sahilp007/react-text-generator">View
-						Source</a><br>
-				
+					<a href="./JS%20Callback%20Functions.html">Read More</a>
+				</div>
+			</div>
+		</div>
+		<div class="blog-card">
+			<div class="blog-imgBx">
+				<img src="./images/bg4.jpg" alt="why is this not loading">
+			</div>
+			<div class="blog-content">
+				<div>
+					<h3>Design</h3>
+					
+					<p>I started out with Java and then shifted to Python. <br>
+						I am really enjoying <span class="snippets">Web Development</span> a lot.
+					</p>
+					<a href="#">Read More</a>
+				</div>
+			</div>
+		</div>
+		<div class="blog-card">
+			<div class="blog-imgBx">
+				<img src="./images/bg5.jpg" alt="why is this not loading">
+			</div>
+			<div class="blog-content">
+				<div>
+					<h3>Design</h3>
+					
+					<p>I started out with Java and then shifted to Python. <br>
+						I am really enjoying <span class="snippets">Web Development</span> a lot.
+					</p>
+					<a href="#">Read More</a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="vanilla-tilt.js"></script>
-	<script>
-		VanillaTilt.init(document.querySelectorAll(".card-gc"), {
-			max: 25,
-			speed: 400,
-			glare: true,
-			"max-glare": 1
-			
-		});
-	</script>
-	<div class="div" style="min-height: 200px">
-	</div>
+	<div class="div" style="min-height: 200px"></div>
 	<div class="footer-basic">
 		<footer>
 			<section class ="footer">

@@ -1,17 +1,15 @@
 * {
-	margin: auto;
+	/*margin: auto;*/
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Raleway SemiBold";
 }
-
 body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
 	background: #031625;
 }
-
 body::before {
 	content: "";
 	position: absolute;
@@ -23,7 +21,6 @@ body::before {
 	clip-path: circle(30% at right 70%);
 	z-index: -11111;
 }
-
 body::after {
 	content: "";
 	position: absolute;
@@ -35,7 +32,6 @@ body::after {
 	clip-path: circle(20% at 10% 10%);
 	z-index: -11111;
 }
-
 .container-gc {
 	position: relative;
 	display: flex;
@@ -45,7 +41,6 @@ body::after {
 	flex-wrap: wrap;
 	z-index: 1;
 }
-
 .container-gc .card-gc {
 	position: relative;
 	width: 280px;
@@ -62,8 +57,6 @@ body::after {
 	border-left: 1px solid rgba(255, 255, 255, 0.5);
 	backdrop-filter: blur(5px);
 }
-
-
 .container-gc .card-gc .content-gc {
 	padding: 20px;
 	text-align: center;
@@ -71,7 +64,6 @@ body::after {
 	opacity: 1;
 	transition: 0.5s;
 }
-
 /*.container .card .content {*/
 /*	padding: 20px;*/
 /*	text-align: center;*/
@@ -79,12 +71,10 @@ body::after {
 /*	opacity: 0;*/
 /*	transition: 0.5s;*/
 /*}*/
-
 /*.container .card:hover .content {*/
 /*	transform: translate(0px);*/
 /*	opacity: 1;*/
 /*}*/
-
 .container-gc .card-gc .content-gc h2 {
 	position: absolute;
 	top: -80px;
@@ -94,20 +84,16 @@ body::after {
 	pointer-events: none;
 
 }
-
-
 .container-gc .card-gc .content-gc h3 {
 	font-size: 1.8em;
 	color: white;
 	z-index: 1;
 }
-
 .container-gc .card-gc .content-gc p {
 	font-size: 1em;
 	color: white;
 	font-weight: 300;
 }
-
 .container-gc .card-gc .content-gc a {
 	position: relative;
 	display: inline-block;
