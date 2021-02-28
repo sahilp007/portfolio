@@ -27,8 +27,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS Callback Functions.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS Callback Functions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects1.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects2.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects2.html" afterDir="false" />
@@ -71,6 +69,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="VAR" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -79,7 +78,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -88,9 +87,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sahil\WebstormProjects\newone\portfolio\css" />
+      <recent name="C:\Users\sahil\WebstormProjects\newone\portfolio\images" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.blogs.html">
+  <component name="RunManager" selected="JavaScript Debug.test">
     <configuration name="blogs.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/portfolio/blogs.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -108,8 +108,8 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.test" />
-      <item itemvalue="Node.js.practice.js" />
       <item itemvalue="JavaScript Debug.blogs.html" />
+      <item itemvalue="Node.js.practice.js" />
     </list>
     <recent_temporary>
       <list>
@@ -185,7 +185,20 @@
       <workItem from="1612863947086" duration="6233000" />
       <workItem from="1612917325688" duration="4658000" />
       <workItem from="1612948589662" duration="7039000" />
-      <workItem from="1613024284923" duration="4271000" />
+      <workItem from="1613024284923" duration="4495000" />
+      <workItem from="1613095488709" duration="24000" />
+      <workItem from="1613207125185" duration="3319000" />
+      <workItem from="1613233244379" duration="3056000" />
+      <workItem from="1613600115705" duration="819000" />
+      <workItem from="1613629957253" duration="1367000" />
+      <workItem from="1613631355666" duration="320000" />
+      <workItem from="1613631697089" duration="1302000" />
+      <workItem from="1613637933915" duration="6005000" />
+      <workItem from="1613814196212" duration="1673000" />
+      <workItem from="1613873859772" duration="3404000" />
+      <workItem from="1613924610521" duration="480000" />
+      <workItem from="1614153377695" duration="1253000" />
+      <workItem from="1614552531323" duration="721000" />
     </task>
     <task id="LOCAL-00001" summary="css edits">
       <created>1608635781713</created>
@@ -257,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612431674512</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="footer to  all pages&#10;addition of a main blog page">
+      <created>1613028923495</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613028923495</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +304,8 @@
     <MESSAGE value="project2 addition" />
     <MESSAGE value="footer fix" />
     <MESSAGE value="footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer" />
+    <MESSAGE value="footer to  all pages&#10;addition of a main blog page" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer to  all pages&#10;addition of a main blog page" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

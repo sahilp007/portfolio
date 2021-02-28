@@ -3,6 +3,7 @@
 <head>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/styles2.css">
+	<link rel="stylesheet" href="css/styles3.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -13,7 +14,8 @@
 	<title>JS Callback Functions</title>
 </head>
 
-<body style="background-color: #031625; color: whitesmoke">
+<!--<body style="background-color: #031625; color: whitesmoke">-->
+<body>
 	<nav class="sticky-top">
 		<header class="header">
 			<h1 class="logo link"><a href="#">Sahil Prasad</a></h1>
@@ -27,7 +29,7 @@
 		</header>
 	</nav>
 	
-	<div class ="para" >
+	<div class ="para sections" >
 		<h1>How to Use JavaScript Callback Functions</h1>
 		
 		<p>
@@ -106,5 +108,35 @@
 			as a callback.
 		</p>
 	</div>
+	<script src="anime.min.js"></script>
+	<script>
+		const container = document.querySelector('.sections')
+		for(let i = 0; i<=35; i++){
+			const blocks= document.createElement('div');
+			blocks.classList.add('block');
+			container.appendChild(blocks)
+		}
+
+		function animateBlocks(){
+			anime({
+				targets:'.block',
+				translateY: function(){
+					return anime.random(-1810,200);
+				},
+				translateX: function(){
+					return anime.random(-100, 1900);
+				},
+				scale: function(){
+					return anime.random(1,5);
+				},
+				easing: 'linear',
+				duration: 3000,
+				delay: anime.stagger(10),
+				complete: animateBlocks,
+
+			})
+		}
+		animateBlocks()
+	</script>
 </body>
 </html>

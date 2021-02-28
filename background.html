@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Back</title>
+	<link rel="stylesheet" href="./css/styles3.css">
+</head>
+<body>
+	<div class="container">
+		<h2><span>My First Video on </span><br>AnimeJS</h2>
+	</div>
+	<script src="anime.min.js"></script>
+	<script>
+		const container = document.querySelector('.container')
+		for(let i = 0; i<=35; i++){
+			const blocks= document.createElement('div');
+			blocks.classList.add('block');
+			container.appendChild(blocks)
+		}
+		
+		function animateBlocks(){
+			anime({
+				targets:'.block',
+				translateY: function(){
+					return anime.random(-810,220);
+				},
+				translateX: function(){
+					return anime.random(-100, 1700);
+				},
+				scale: function(){
+					return anime.random(1,5);
+				},
+				easing: 'linear',
+				duration: 3000,
+				delay: anime.stagger(10),
+				complete: animateBlocks,
+				
+			})
+		}
+		animateBlocks()
+	</script>
+</body>
+</html>
