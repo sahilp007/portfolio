@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Back</title>
 	<link rel="stylesheet" href="./css/styles3.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="colors.css">
 </head>
 <body>
 	<div class="container">
@@ -11,27 +13,45 @@
 	</div>
 	<script src="anime.min.js"></script>
 	<script>
+		const musicFiles = ["01 - Humnava Mere (128 Kbps) - DownloadMing.SE.mp3", "01 - Kya Baat Ay (128 Kbps) - DownloadMing.SE.mp3"];
+	</script>
+	<script>
 		const container = document.querySelector('.container')
-		for(let i = 0; i<=35; i++){
+		for(let i = 0; i<=5; i++){
 			const blocks= document.createElement('div');
-			blocks.classList.add('block');
+			blocks.classList.add('heart');
+			const audios = document.createElement("audio");
+			audios.setAttribute("id", "my-audio");
+			const sources = document.createElement("source");
+			sources.setAttribute("src", `./music/${musicFiles[i % 2]}`);
+			sources.setAttribute("type", "audio/mpeg");
+			audios.appendChild(sources);
+			blocks.appendChild(audios);
+			audios.onended = function () {
+				onMusicEnd(blocks)
+			};
+			if (audios)
+				blocks.onclick = function () {
+					remove(this);
+				};
 			container.appendChild(blocks)
 		}
 		
 		function animateBlocks(){
 			anime({
-				targets:'.block',
+				targets:'.heart',
 				translateY: function(){
-					return anime.random(-810,220);
+					return anime.random(100, 600);
 				},
 				translateX: function(){
-					return anime.random(-100, 1700);
+					return anime.random(-600, 550);
 				},
+				rotate: 45,
 				scale: function(){
 					return anime.random(1,5);
 				},
 				easing: 'linear',
-				duration: 3000,
+				duration: 9000,
 				delay: anime.stagger(10),
 				complete: animateBlocks,
 				
@@ -39,5 +59,127 @@
 		}
 		animateBlocks()
 	</script>
+	<script>
+		const container = document.querySelector('.container')
+		for(let i = 0; i<=5; i++){
+			const blocks= document.createElement('div');
+			blocks.classList.add('heart');
+			const audios = document.createElement("audio");
+			audios.setAttribute("id", "my-audio");
+			const sources = document.createElement("source");
+			sources.setAttribute("src", `./music/${musicFiles[i % 2]}`);
+			sources.setAttribute("type", "audio/mpeg");
+			audios.appendChild(sources);
+			blocks.appendChild(audios);
+			audios.onended = function () {
+				onMusicEnd(blocks)
+			};
+			if (audios)
+				blocks.onclick = function () {
+					remove(this);
+				};
+			container.appendChild(blocks)
+		}
+
+		function animateBlocks(){
+			anime({
+				targets:'.heart',
+				translateY: function(){
+					return anime.random(100, 600);
+				},
+				translateX: function(){
+					return anime.random(-600, 550);
+				},
+				rotate: 45,
+				scale: function(){
+					return anime.random(1,5);
+				},
+				easing: 'linear',
+				duration: 9000,
+				delay: anime.stagger(10),
+				complete: animateBlocks,
+
+			})
+		}
+		animateBlocks()
+	</script>
+	<script>
+		function remove(el) {
+
+			console.log("this: ", el);
+			let element = el.querySelector("#my-audio");
+			// let block = document.querySelector('hearts');
+			// console.log(block);
+			// element.onended = function() {onMusicEnd(block)};
+
+
+			// console.log("element: ", element);
+			let isPlaying = element.paused;
+			let sounds = document.getElementsByTagName("audio");
+
+			for (i = 0; i < sounds.length; i++) sounds[i].pause()
+			// let icons = document.querySelectorAll("div.heart, div.heart2");
+			// console.log("icons: ", icons);
+			// for (i = 0; i < icons.length; i++) {
+			// console.log("icon[",i,"] :" , icons[i].childNodes[0]);
+
+			// if (icons[i].childNodes[1] !== undefined)
+			//   icons[i].removeChild(icons[i].childNodes[1]);
+
+			// }
+			console.log("isPlaying:", isPlaying);
+			if (isPlaying) {
+				let iconCont = document.createElement("div");
+				let img = document.createElement("img");
+				img.setAttribute(
+					"src",
+					"https://img.icons8.com/flat-round/40/000000/pause--v1.png"
+				);
+				// iconCont.appendChild(img);
+				// el.appendChild(iconCont);
+				// if(sounds.duration==0) el.remove();
+			}
+			else {
+				// console.log(sounds.duration);
+				el.remove();
+			}
+			return isPlaying ? element.play() : element.pause();
+			// animateHearts();
+		}
+
+		function onMusicEnd(mus) {
+			mus.remove();
+		}
+	</script>
 </body>
 </html>
+
+<!--<script>-->
+<!--	const container = document.querySelector('.container')-->
+<!--	for(let i = 0; i<=35; i++){-->
+<!--		const blocks= document.createElement('div');-->
+<!--		blocks.classList.add('block');-->
+<!--		container.appendChild(blocks)-->
+<!--	}-->
+
+<!--	function animateBlocks(){-->
+<!--		anime({-->
+<!--			targets:'.block',-->
+<!--			translateY: function(){-->
+<!--				return anime.random(-810,220);-->
+<!--			},-->
+<!--			translateX: function(){-->
+<!--				return anime.random(-100, 1700);-->
+<!--			},-->
+<!--			scale: function(){-->
+<!--				return anime.random(1,5);-->
+<!--			},-->
+<!--			easing: 'linear',-->
+<!--			duration: 3000,-->
+<!--			delay: anime.stagger(10),-->
+<!--			complete: animateBlocks,-->
+
+<!--		})-->
+<!--	}-->
+<!--	animateBlocks()-->
+<!--</script>-->
