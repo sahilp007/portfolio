@@ -558,12 +558,12 @@ ul {
 	transition: 0.7s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 	backdrop-filter: invert(1);
 	/*filter:  blur(2px);*/
-	opacity:1;
+	opacity:0.6;
 }
 .box:hover{
 	width: 90%;
 	transition: 0.7s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-opacity:0;
+opacity:1;
 }
 .box-bg{
 	position: center;

@@ -1,0 +1,86 @@
+
+.container{
+	position: absolute;
+	/*z-index: 2;*/
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background: #23c9c9;
+	overflow: hidden;
+}
+
+.heart{
+	position: absolute;
+	width: 40px;
+	z-index: 3;
+	height: 40px;
+	background-color: indianred;
+	transform: rotate(45deg);
+	box-shadow: 20px 20px 40px rgba(0,0,0,0.2);
+}
+
+.heart::before{
+	content: '';
+	position: absolute;
+	top: -50%;
+	z-index: 3;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: indianred;
+	border-radius: 50%;
+	box-shadow: 0 -20px 20px rgba(0,0,0,0.1);
+}
+.heart::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	z-index: 3;
+	left: -50%;
+	width: 100%;
+	height: 100%;
+	background: indianred;
+	border-radius: 50%;
+	/*box-shadow: 0 -20px 20px rgba(0,0,0,0.1);*/
+}
+.heart2{
+	background: #1090f6;
+	z-index: 3;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	transform: rotate(45deg);
+	box-shadow: 20px 20px 40px rgba(0,0,0,0.2);
+}
+.heart2::before{
+	background: #1090f6;
+	z-index: 3;
+	content: '';
+	position: absolute;
+	top: -50%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	box-shadow: 0 -20px 20px rgba(0,0,0,0.1);
+}
+.heart2::after{
+	background: #1090f6;
+	z-index: 3;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -50%;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	/*box-shadow: 0 -20px 20px rgba(0,0,0,0.1);*/
+}
+
+/*.heart2:hover, .heart2:hover:before , .heart2:hover:after{*/
+/*	display: none;*/
+/*}*/
