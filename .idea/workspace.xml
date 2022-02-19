@@ -24,8 +24,12 @@
   <component name="ChangeListManager">
     <list default="true" id="35326e7a-b2f8-4dbf-80d0-3e0157cad854" name="Default Changelist" comment="IGNORE - wallpapers addition">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/index1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects1.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects2.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +67,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1lynALgeTpr875A2MqJJphfYaEF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -75,7 +82,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Desktop/Courses/Sahil_Prasad_IT_SY_HTML_Project" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -100,7 +107,7 @@
     <configuration name="blogs.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/portfolio/blogs.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="test" type="JavascriptDebugType" engineId="1ff36c74-6eb7-4ece-98a1-0634c83cb5c4" uri="http://localhost:63342/portfolio/index.html" useBuiltInWebServerPort="true">
+    <configuration name="test" type="JavascriptDebugType" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/portfolio/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="practice.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="practice.js" working-dir="$PROJECT_DIR$">
@@ -223,7 +230,21 @@
       <workItem from="1623164321479" duration="3133000" />
       <workItem from="1624442597670" duration="912000" />
       <workItem from="1625924993701" duration="1500000" />
-      <workItem from="1629697500720" duration="3544000" />
+      <workItem from="1629697500720" duration="3731000" />
+      <workItem from="1629717128891" duration="284000" />
+      <workItem from="1629723096157" duration="20000" />
+      <workItem from="1630554815361" duration="3089000" />
+      <workItem from="1641120516473" duration="380000" />
+      <workItem from="1641121992514" duration="1212000" />
+      <workItem from="1641192575788" duration="57000" />
+      <workItem from="1641230203543" duration="1619000" />
+      <workItem from="1641234828186" duration="1678000" />
+      <workItem from="1641356967058" duration="108000" />
+      <workItem from="1641446488947" duration="1290000" />
+      <workItem from="1641998406439" duration="607000" />
+      <workItem from="1642186268855" duration="1679000" />
+      <workItem from="1642191196522" duration="3868000" />
+      <workItem from="1642311878404" duration="1132000" />
     </task>
     <task id="LOCAL-00001" summary="css edits">
       <created>1608635781713</created>
@@ -323,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625925719974</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="IGNORE - wallpapers addition">
+      <created>1629704248851</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1629704248851</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +367,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="proj page additions" />
